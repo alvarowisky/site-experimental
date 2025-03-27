@@ -5,21 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html" >Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="preferencias.html">Preferencias</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve sua saude a outro nível <strong class="titulo-destaque">com uma Psicoterapia (Psicanalise) de qualidade!</strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Sou Alvaro Wisky, Ajudo pessoas a alcançarem saúde física, mental e emocional plena com uma abordagem integrativa. Vamos conversar?</p>
             <div class="apresentacao__botoes">
-                <a class="apresentacao__botoes__link" href="https://https://www.linkedin.com/in/alvarowisky">Linkedin</a>
-                <a class="apresentacao__botoes__link" href="https://github.com/alvarowisky">Github</a>
+                <h2 class="apresentacao__botoes__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__botoes__link" href="https://github.com/alvarowisky">
+                    <img src="./assets/github.png" alt="Logo do Github">
+                    Github
+                </a>
+                <a class="apresentacao__botoes__link" href="https://https://www.linkedin.com/in/alvarowisky">
+                    <img src="./assets/linkedin.png" alt="Logo do linkedin">
+                    Linkedin
+                </a>
             </div>
         </section>
-                <img src="alvaro.jpeg" alt="Imagem do alvaro Wisky" class="apresentacao__img">
+                <img src="./assets/alvaro.jpeg" alt="Imagem do alvaro Wisky" class="apresentacao__img">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Alvaro Wisky.</p>
+    </footer>
 </body>
 </html>
